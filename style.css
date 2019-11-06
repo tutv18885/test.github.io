@@ -1,0 +1,294 @@
+/*reset css*/
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.clearfix::after {
+  content: ' ';
+  clear: both;
+  display: block;
+}
+body{
+	font-family: sans-serif;
+}
+/*Phần bao quanh web 1000px, căn giữa*/
+#wrapper{
+	width: 1000px;
+	margin: 0px auto;
+}
+/*Thẻ a bỏ gạch chân, chữ màu đen*/
+a{
+	text-decoration: none;
+	color: black;
+}
+/*Thẻ img cho ảnh vừa với div ở bất cứ kích thước nào*/
+img{
+	width: 100%;
+	height: 100%;
+}
+/*style cho header*/
+.header{
+	width: 100%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.header-logo{
+	width: 100%;
+	height: 200px;
+}
+.header-logo-wrapper{
+padding: 20px;
+}
+.header-logo-contain{
+	padding: 20px;
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.header-quang-cao{
+	padding: 20px;
+	width: 75%;
+	height: 100%;
+	float: left;
+}
+/*Style cho menu ngang*/
+#menu ul {
+  background: #1F568B;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+/*==Dropdown Menu==*/
+.sub-menu li {
+  display: none;
+}
+#menu li {
+ position: relative;
+}
+.sub-menu {
+ display: none;
+ position: absolute;
+}
+#menu li:hover .sub-menu {
+ display: block;
+}
+.sub-menu li {
+ margin-left: 0 !important;
+}
+/*Phần hiển thị thông tin lớn - 2 ô lớn*/
+.big-grid-2-col{
+	width: 100%;
+	height: 350px;
+}
+.big-grid-2-col-contain{
+	width: 50%;
+	height: 100%;
+	padding: 2px;
+	float: left;
+}
+.big-grid-2-col-contain-a{
+	width: 100%;
+	height: 100%;
+	border: 1px solid red;
+}
+/*Phần hiển thị thông tin lớn - 5 - ô nhỏ*/
+.big-grid-5-col{
+	width: 100%;
+	height: 150px;
+}
+.big-grid-5-col-contain{
+	width: 20%;
+	height: 100%;
+	padding: 2px;
+	float: left;
+}
+.big-grid-5-col-contain-a{
+	width: 100%;
+	height: 100%;
+	border: 1px solid red;
+}
+/*Các tiêu đề H2*/
+.tieu-de{
+	color: red;
+	margin: 20px 0px;
+}
+/*Style phần hiển thị tin mới nhất*/
+.grid-5-col{
+	width: 100%;
+	margin: 20px 0px;
+}
+.grid-5-col-wrapper{
+	width: 100%;
+	height: 100%;
+}
+.grid-5-col-contain{
+	width: 20%;
+	height: 200px;
+	float: left;
+	padding: 2px;
+}
+.grid-5-col-contain-a{
+	width: 100%;
+	height: 75%;
+	border: 1px solid red;
+	float: left;
+}
+.grid-5-col-contain-b{
+	width: 100%;
+	height: 25%;
+	float: left;
+}
+/*Style phần chuyên gia nói và quảng cáo giữa trang*/
+.grid-2-col-1-col{
+	width: 100%;
+	height: 100%;
+	margin: 20px 0px;
+}
+.grid-2-col-1-col-wrapper{
+	width: 100%;
+	height: 400px;
+}
+.grid-2-col-wrapper{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.grid-2-col{
+	width: 50%;
+	height: 50%;
+	padding: 2px;
+	float: left;
+}
+.grid-2col-contain{
+	width: 100%;
+	height: 100%;
+	border: 1px solid red;
+}
+/*Phần quảng cáo giữa trang*/
+.grid-1-col-wrapper{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+.grid-1-col{
+	width: 100%;
+	height: 100%;
+	padding: 2px;
+}
+.grid-1-col-contain{
+	width: 100%;
+	height: 100%;
+	border: 1px solid red;
+}
+/*Style phần Công nghệ, Lập trình, Tâm sự coder*/
+/*Style cho phần hiển thị lớn*/
+.grid-3-col{
+	width: 100%;
+	height: 100%;
+	margin: 20px 0px;
+}
+.grid-3-col-wrapper{
+	width: 100%;
+	height: 100%;
+}
+.grid-3-col-1-wrapper{
+	width: 33.3333%;
+	float: left;
+}
+.grid-3-col-1-big-wrapper{
+	width: 100%;
+	height: 150px;
+	padding: 2px;
+	float: left;
+}
+.grid-3-col-1-big-contain{
+	width: 100%;
+	height: 100%;
+	border: 1px solid red;
+}
+/*Style cho phần hiển thị nhỏ*/
+.grid-3-col-1-small-wrapper{
+	width: 100%;
+	height: 100px;
+	margin: 10px 0px;
+	float: left;
+}
+.grid-3-col-1-small-picture-wrapper{
+	width: 30%;
+	height: 100%;
+	float: left;
+	padding: 2px;
+}
+.grid-3-col-1-small-picture{
+	width: 100%;
+	height: 100%;
+	border: 1px solid red;
+}
+.grid-3-col-1-small-title-wrapper{
+	width: 70%;
+	height: 100%;
+	padding: 2px;
+	float: left;
+}
+.grid-3-col-1-small-title{
+	width: 100%;
+	height: 100%;
+}
+/*Style cho footer*/
+.footer{
+	width: 100%;
+	height: 400px;
+	padding: 50px;
+	background-color: #222;
+}
+.footer p{
+	color: white;
+	margin: 20px 0px;
+}
+.footer h2{
+	color: white;
+}
+.footer-wrapper{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	border-top: 1px solid #333;
+}
+.grid-3-col-footer-wrapper{
+	width: 33.3333%;
+	height: 100%;
+	padding: 2px;
+	float: left;
+}
+.grid-3-col-footer{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+}
+.footer-ico{
+	height: 30px;
+	width: 30px;
+	margin: 10px;
+	float: left;
+}
+.footer-logo{
+	width: 100%;
+	height: 100%;
+	padding: 50px 0px;
+}
